@@ -1,0 +1,217 @@
+.principal {
+  border: 1px solid white;
+  background-color: rgba(128,128,128, 0.85)
+}
+.contenedor-encabezado {
+  border: 1px solid white;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+#titulo-encabezado {
+  font-family: cursive;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: right;
+  color: rgb(114, 4, 34);
+}
+#slogan {
+  font-family: fantasy;
+  font-size: 25px;
+  text-align: right;
+  color: #E40441;
+}
+body {
+  background: lightblue url("../img/cocina.jpg") no-repeat fixed center;
+}
+.expanded {
+  display:
+}
+.cocina {
+  width: 100%;
+}
+.columna-izquierda {
+  /* border-right: 1px solid white; */
+}
+[class*="columna-derecha"] {
+  border: 1px solid white;
+  margin-top: 40px;
+}
+@media (min-width:1024px){
+.buscar {
+  margin-left: 30px;
+  border: 1px solid grey;
+  width: 320px;
+  margin-top: 20px;
+  height: 35px;
+  }
+.contenedor-lupa {
+  margin-top: 20px;
+  background-color: grey;
+  padding: 1px;
+  border: 1px solid white;
+  }
+#lupa {
+  font-size: 30px;
+  margin-left: 3px;
+  color: white;
+  }
+.usuario {
+  font-size: 35px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: white;
+  height: 50px;
+  padding: 0px;
+  }
+.nombre-usuario {
+  margin-top: 15px;
+  font-size: 12px;
+  }
+.comentario {
+  font-size: 14px;
+  padding-left: 20px;
+  }
+  .chats-container {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width:1023px){
+.buscar {
+  margin-left: 10px;
+  border: 1px solid grey;
+  width: 180px;
+  margin-top: 10px;
+  height: 35px;
+  }
+.contenedor-lupa {
+  margin-top: 10px;
+  background-color: grey;
+  padding: 1px;
+  border: 1px solid white;
+  }
+#lupa {
+  font-size: 30px;
+  margin-left: 0px;
+  color: white;
+  }
+.usuario {
+  font-size: 25px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: white;
+  height: 40px;
+  padding: 0px;
+  }
+.nombre-usuario {
+  margin-top: 15px;
+  font-size: 10px;
+  }
+.comentario {
+  font-size: 12px;
+  padding-left: 25px;
+  }
+.chats-container {
+  padding-bottom: 20px;
+  }
+}
+
+.list-group-item {
+  color: red;
+  text-align: center;
+}
+.opciones {
+  width: 90%;
+}
+.titulo-favoritos {
+  color: #E40441;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  /* background-color: rgba(0,255,0,1) */
+}
+.historial {
+  font-family: cursive;
+  color: red;
+}
+[class*="foto"] {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.titulo1-derecha {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+  color: red;
+}
+.fecha {
+  font-family: cursive;
+  font-size: 15px;
+  color: red;
+}
+.plato1-derecha {
+  width: 100%;
+}
+.plato2-derecha {
+  width: 100%;
+}
+.receta {
+  color: rgb(114, 4, 34);
+  font-family: cursive;
+  text-align: justify;
+}
+.titulo-comentario {
+  font-family: cursive;
+  color: black;
+}
+.entrada-comentario {
+  height: 80px;
+}
+.parte2 {
+  margin-top: 20px;
+}
+.contenedor-chat {
+  margin-top: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* Estilo list-group-------------------------------- */
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.list-group-item.active {
+  color: #fefefe;
+  background-color: #1779ba;
+  border-color: 1px solid #1779ba;
+}
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #e6e6e6;
+}
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #1779ba;
+}
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus, .list-group-item[disabled], .list-group-item[disabled]:hover, .list-group-item[disabled]:focus {
+  color: #8a8a8a;
+  cursor: not-allowed;
+  background-color: #fefefe;
+}

@@ -1,0 +1,166 @@
+body {
+  background: lightblue url("../img/paisaje_fondo.jpg") no-repeat fixed center;
+}
+.foto-logo {
+  width: 100%;
+}
+.contenedor-redes-sociales {
+  margin-top: 5%;
+  text-align: center;
+}
+.foto {
+  width: 100%;
+}
+.contenedor-rostro {
+  text-align: center;
+  padding-top: 15px;
+}
+.rostro {
+  width: 35%;
+}
+.contenedor-perfil {
+  text-align: center;
+  font-family: fantasy;
+}
+.contenedor-tibidabo {
+  padding: 0px;
+}
+@media (min-width:1025px) {
+.botones {
+  text-align: right;
+  }
+.icono-redes {
+  width: 50px;
+}
+.contenedor-frase {
+  margin-top: 140px;
+  }
+.frase {
+  font-family: fantasy;
+  font-size: 45px;
+  color: green;
+  }
+.foto1 {
+  height: 950px;
+  width: 100%;
+  }
+.tibidabo {
+  margin-right: 10px;
+  float: left;
+  }
+.texto1 {
+  margin: 20px;
+  text-align: justify;
+  font-size: 16px;
+  }
+.texto2 {
+  margin: 20px;
+  text-align: center;
+  font-size: 16px;
+  }
+.titulo {
+  font-size: 18px;
+  font-weight: bold;
+  }
+.enviar {
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 14px;
+  }
+.entrada {
+  font-size: 16px;
+  }
+}
+@media (min-width:640px) and (max-width:1024px) {
+.botones {
+  text-align: right;
+  }
+.icono-redes {
+  width: 35px;
+  }
+.contenedor-frase {
+  margin-top: 100px;
+  }
+.frase {
+  font-family: fantasy;
+  font-size: 16px;
+  color: green;
+  }
+.btn {
+  width: 15%;
+ }
+.foto1 {
+ height: 350px;
+ width: 100%;
+ }
+.tibidabo {
+ margin-right: 10px;
+ float: left;
+ width: 350px;
+ }
+.texto1 {
+ text-align: justify;
+ font-size: 14px;
+ }
+.texto2 {
+  text-align: center;
+  font-size: 14px;
+  }
+ .titulo {
+ font-size: 16px;
+ font-weight: bold;
+ }
+.enviar {
+ text-align: right;
+ margin-bottom: 5px;
+ font-size: 10px;
+ }
+.entrada {
+ font-size: 14px;
+ }
+}
+@media (max-width:639px) {
+.botones {
+  text-align: right;
+}
+.contenedor-frase {
+  margin-top: 1px;
+  }
+.frase {
+  font-family: fantasy;
+  font-size: 10px;
+  color: green;
+  }
+.btn {
+  width: 10%;
+ }
+.foto1 {
+  height: 300px;
+  width: 100%;
+  }
+.tibidabo {
+  float: left;
+  width: 270px;
+  }
+.texto1 {
+  text-align: justify;
+  font-size: 12px;
+  }
+.texto2 {
+  text-align: center;
+  font-size: 14px;
+  }
+.titulo {
+ font-size: 14px;
+ font-weight: bold;
+ }
+.enviar {
+  text-align: right;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 10px;
+  }
+.entrada {
+  font-size: 12px;
+  }
+}
